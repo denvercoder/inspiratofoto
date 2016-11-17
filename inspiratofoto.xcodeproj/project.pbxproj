@@ -14,6 +14,7 @@
 		D7BF31FF1DDE5F1C004CD102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7BF31FD1DDE5F1C004CD102 /* LaunchScreen.storyboard */; };
 		D7BF320A1DDE5F1C004CD102 /* inspiratofotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BF32091DDE5F1C004CD102 /* inspiratofotoTests.swift */; };
 		D7BF32151DDE5F1C004CD102 /* inspiratofotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BF32141DDE5F1C004CD102 /* inspiratofotoUITests.swift */; };
+		D7BF32231DDE61EA004CD102 /* Image-1-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D7BF32221DDE61EA004CD102 /* Image-1-1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D7BF32101DDE5F1C004CD102 /* inspiratofotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inspiratofotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BF32141DDE5F1C004CD102 /* inspiratofotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inspiratofotoUITests.swift; sourceTree = "<group>"; };
 		D7BF32161DDE5F1C004CD102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7BF32221DDE61EA004CD102 /* Image-1-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Image-1-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				D7BF31F81DDE5F1C004CD102 /* Main.storyboard */,
 				D7BF31FB1DDE5F1C004CD102 /* Assets.xcassets */,
 				D7BF31FD1DDE5F1C004CD102 /* LaunchScreen.storyboard */,
+				D7BF32221DDE61EA004CD102 /* Image-1-1.jpg */,
 				D7BF32001DDE5F1C004CD102 /* Info.plist */,
 			);
 			path = inspiratofoto;
@@ -238,6 +241,7 @@
 				D7BF31FF1DDE5F1C004CD102 /* LaunchScreen.storyboard in Resources */,
 				D7BF31FC1DDE5F1C004CD102 /* Assets.xcassets in Resources */,
 				D7BF31FA1DDE5F1C004CD102 /* Main.storyboard in Resources */,
+				D7BF32231DDE61EA004CD102 /* Image-1-1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

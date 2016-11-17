@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="inspiratofoto" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,49 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Image-1-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EWI-Mi-kv1">
+                                <rect key="frame" x="16" y="20" width="343" height="563"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z5a-3R-Pt0">
+                                <rect key="frame" x="311" y="629" width="48" height="30"/>
+                                <state key="normal" title="Search"/>
+                                <connections>
+                                    <action selector="searchImages:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RPV-xp-NAO"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter keyword to search" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DfF-IC-KXI">
+                                <rect key="frame" x="16" y="591" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="DfF-IC-KXI" secondAttribute="leading" id="4aK-cM-lQg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="EWI-Mi-kv1" secondAttribute="trailing" id="97l-8U-0Uj"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="EWI-Mi-kv1" secondAttribute="leading" id="NZo-CB-r4n"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DfF-IC-KXI" secondAttribute="bottom" constant="46" id="QpM-JA-bWb"/>
+                            <constraint firstItem="Z5a-3R-Pt0" firstAttribute="top" secondItem="DfF-IC-KXI" secondAttribute="bottom" constant="8" id="XbE-Cl-1WO"/>
+                            <constraint firstItem="DfF-IC-KXI" firstAttribute="top" secondItem="EWI-Mi-kv1" secondAttribute="bottom" constant="8" id="Ywp-tn-T84"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DfF-IC-KXI" secondAttribute="trailing" id="anj-BG-pQP"/>
+                            <constraint firstItem="EWI-Mi-kv1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="kRt-DN-SE0"/>
+                            <constraint firstItem="EWI-Mi-kv1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r5a-wk-JRR"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Z5a-3R-Pt0" secondAttribute="trailing" id="w2v-MM-uxV"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="resultImageView" destination="EWI-Mi-kv1" id="7OA-xb-hR2"/>
+                        <outlet property="searchTextField" destination="DfF-IC-KXI" id="xS0-rG-B1f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="125.4872563718141" y="148"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image-1-1.jpg" width="414" height="736"/>
+    </resources>
 </document>
