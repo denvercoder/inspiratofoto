@@ -24,7 +24,7 @@ class ImageSearchViewController: UIViewController {
 
     @IBAction func searchImages(_ sender: Any) {
 
-        GetSearchResults.fetchData(string: "Trees", string: "L1Yj9o68dZub8KbSSYEdCrQG5G4tapkehKgqYVKt", int: 1)
+        GetSearchResults.fetchData(searchTerm: "Trees", consumerKey: "L1Yj9o68dZub8KbSSYEdCrQG5G4tapkehKgqYVKt", pageNum: 1)
 
     }
 
