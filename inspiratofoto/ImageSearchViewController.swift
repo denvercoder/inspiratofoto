@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ImageSearchController.swift
 //  inspiratofoto
 //
 //  Created by Timothy Myers on 11/17/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ImageSearchViewController: UIViewController {
 
     @IBOutlet weak var resultImageView: UIImageView!
     @IBOutlet weak var searchTextField: UITextField!
