@@ -1,5 +1,5 @@
 //
-//  ImageSearchController.swift
+//  ImageSearchViewController.swift
 //  inspiratofoto
 //
 //  Created by Timothy Myers on 11/17/16.
@@ -10,10 +10,8 @@ import UIKit
 
 class ImageSearchViewController: UIViewController {
 
-    @IBOutlet weak var resultImageView: UIImageView!
     @IBOutlet weak var searchTextField: UITextField!
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -25,7 +23,9 @@ class ImageSearchViewController: UIViewController {
     }
 
     @IBAction func searchImages(_ sender: Any) {
-        
+
+        GetSearchResults.fetchData(string: "Trees", string: "L1Yj9o68dZub8KbSSYEdCrQG5G4tapkehKgqYVKt", int: 1)
+
     }
 
 }
