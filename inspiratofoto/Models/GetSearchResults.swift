@@ -26,6 +26,7 @@ class GetSearchResults {
                     {
                         //Logic here
                         print(json)
+                        
                     }
                     
                 } catch {

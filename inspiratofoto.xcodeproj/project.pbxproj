@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1841566316D8423593BF0C1B /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 184156E319423DA6FC64065E /* Models */; };
 		18415928B54604CA5E829E2D /* ImageSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184150239DAE64B9E5372B37 /* ImageSearchViewController.swift */; };
 		18415C8DE3AA8A3C800B6028 /* GetSearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18415DADEEE5B688897C3AC7 /* GetSearchResults.swift */; };
 		D779D04E1DDE75A000184149 /* ResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D779D04D1DDE75A000184149 /* ResultTableViewController.swift */; };
+		D779D0541DDE873200184149 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D779D0531DDE873200184149 /* test.jpg */; };
 		D7BF31F51DDE5F1C004CD102 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BF31F41DDE5F1C004CD102 /* AppDelegate.swift */; };
 		D7BF31FA1DDE5F1C004CD102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7BF31F81DDE5F1C004CD102 /* Main.storyboard */; };
 		D7BF31FC1DDE5F1C004CD102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7BF31FB1DDE5F1C004CD102 /* Assets.xcassets */; };
@@ -39,9 +39,9 @@
 
 /* Begin PBXFileReference section */
 		184150239DAE64B9E5372B37 /* ImageSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSearchViewController.swift; sourceTree = "<group>"; };
-		184156E319423DA6FC64065E /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
 		18415DADEEE5B688897C3AC7 /* GetSearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetSearchResults.swift; path = Models/GetSearchResults.swift; sourceTree = "<group>"; };
 		D779D04D1DDE75A000184149 /* ResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultTableViewController.swift; path = ../inspiratofoto/ResultTableViewController.swift; sourceTree = "<group>"; };
+		D779D0531DDE873200184149 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		D7BF31F11DDE5F1C004CD102 /* inspiratofoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inspiratofoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7BF31F41DDE5F1C004CD102 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7BF31F91DDE5F1C004CD102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -119,9 +119,9 @@
 				D7BF31FB1DDE5F1C004CD102 /* Assets.xcassets */,
 				D7BF31FD1DDE5F1C004CD102 /* LaunchScreen.storyboard */,
 				D7BF32241DDE682C004CD102 /* icon-1691299_1920.png */,
+				D779D0531DDE873200184149 /* test.jpg */,
 				D7BF32001DDE5F1C004CD102 /* Info.plist */,
 				18415C8091F048BAA9D57C8E /* ViewControllers */,
-				184156E319423DA6FC64065E /* Models */,
 				18415DADEEE5B688897C3AC7 /* GetSearchResults.swift */,
 			);
 			path = inspiratofoto;
@@ -256,10 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7BF31FF1DDE5F1C004CD102 /* LaunchScreen.storyboard in Resources */,
+				D779D0541DDE873200184149 /* test.jpg in Resources */,
 				D7BF31FC1DDE5F1C004CD102 /* Assets.xcassets in Resources */,
 				D7BF31FA1DDE5F1C004CD102 /* Main.storyboard in Resources */,
 				D7BF32251DDE682C004CD102 /* icon-1691299_1920.png in Resources */,
-				1841566316D8423593BF0C1B /* Models in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
